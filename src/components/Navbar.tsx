@@ -50,7 +50,7 @@ const Navbar = () => {
       }`}>
       <div className='flex container flex-wrap items-center justify-between mx-auto px-4 py-2'>
         <Link href={'/'} className='text-lg text-white font-semibold'>
-          LOGO
+          Dhani Portofolio
         </Link>
         <div className='mobile-menu block md:hidden'>
           <button
