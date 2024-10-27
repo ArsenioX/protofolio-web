@@ -6,8 +6,8 @@ import { motion } from 'framer-motion';
 
 const HeroSection = () => {
   return (
-    <section className='lg:py-24 py-12 bg-dark'>
-      <div className='container mx-auto grid grid-cols-1 sm:grid-cols-12 gap-8'>
+    <section className='flag lg:py-24 py-12 bg-dark'>
+      <div className='container mx-auto grid grid-cols-1 sm:grid-cols-12 gap-8 justify-center'>
         <motion.div
           initial={{ opacity: 0, scale: 0.8 }}
           animate={{ opacity: 1, scale: 1 }}
@@ -20,7 +20,7 @@ const HeroSection = () => {
             <br />
             <TypeAnimation
               sequence={[
-                'Dhani',
+                'Dhani ',
                 1500,
                 'Student Smkn 21',
                 1500,
@@ -49,13 +49,13 @@ const HeroSection = () => {
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.7 }}
           className='col-span-4 place-self-center sm:col-span-5 mt-8 sm:mt-0'>
-          <div className='rounded-full bg-gray-800 w-[250px] h-[250px] lg:w-[350px] lg:h-[350px] relative shadow-2xl hover:scale-105 transition-transform duration-300 ease-in-out'>
+          <div className='rounded-full bg-gray-800 w-[250px] h-[250px] lg:w-[350px] lg:h-[350px] relative shadow-2xl hover:scale-105 transition-transform duration-300 ease-in-out justify-center'>
             <Image
               src={'/images/dhan.png'} // Pastikan path file gambar sesuai
               alt='Dhani - Hero Image'
               className='absolute rounded-full transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 object-cover'
-              width={250}
-              height={250}
+              width={300}
+              height={300}
               priority
             />
           </div>
